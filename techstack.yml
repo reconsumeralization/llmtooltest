@@ -1,7 +1,8 @@
 repo_name: reconsumeralization/llmtooltest
 report_id: 86dac4d20493cdf0a450251b7e5060ab
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:08:33+00:00'
+timestamp: '2024-01-04T15:03:53+00:00'
 requested_by: reconsumeralization
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/reconsumeralization/llmtooltest
   detection_source: Repo Metadata
 - name: Torch
   description: An open-source machine learning library and a script language based
@@ -25,6 +27,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/reconsumeralization/llmtooltest/blob/main/.devcontainer/requirements.txt
   detection_source: ".devcontainer/requirements.txt"
   last_updated_by: reconsumeralization
   last_updated_on: 2023-06-01 02:38:26.000000000 Z
