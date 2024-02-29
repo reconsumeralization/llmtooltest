@@ -1,0 +1,33 @@
+repo_name: reconsumeralization/llmtooltest
+report_id: 86dac4d20493cdf0a450251b7e5060ab
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:12:29+00:00'
+requested_by: reconsumeralization
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/reconsumeralization/llmtooltest
+  detection_source: Repo Metadata
+- name: Torch
+  description: An open-source machine learning library and a script language based
+    on the Lua programming language
+  website_url: http://torch.ch/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/reconsumeralization/llmtooltest/blob/main/.devcontainer/requirements.txt
+  detection_source: ".devcontainer/requirements.txt"
+  last_updated_by: reconsumeralization
+  last_updated_on: 2023-06-01 02:38:26.000000000 Z
